@@ -49,10 +49,10 @@ public class TestProgressBar {
     private int originalHeight = 20;
 
     @SuppressWarnings("FieldCanBeLocal")
-    private final boolean useDarkMode = true;
+    private final boolean useDarkMode = false;
 
     @SuppressWarnings("FieldCanBeLocal")
-    private final Pokemon target = null;
+    private final Pokemon target = Pokemon.getById("8");
 
     @SuppressWarnings("ConstantConditions")
     public TestProgressBar() {
